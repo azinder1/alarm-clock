@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Alarm Clock!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="time">
+            <h3 id="time"></h3>
+          </div>
+          <div class="input-append date" id="datetimepicker" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+            <form id="alarm-clock">
+              <div class="form-group">
+                <label for="born">Alarm Clock Time</label>
+                <input id="born" class="form-control" type="time">
+                <button class="btn btn-primary"type="submit" name="button">Set Your Alarm!</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4" id="alarm-time">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
